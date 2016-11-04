@@ -9,6 +9,9 @@
 		
 		<!-- Start inserting font-awesome here -->
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		
+		<!-- Add scripts here -->
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
 	</head>
 
@@ -18,8 +21,34 @@
 		<h1>Hello World!</h1>
 		
 		<nav>
-			<i class="fa fa-bars fa-4" aria-hidden="true"><\i>
+			<i class="fa fa-bars fa-4" aria-hidden="true"></i>
+			<!-- adapted from: http://materializecss.com/side-nav.html -->
+			<ul id="slide-out" class="side-nav">
+			  <li><a href="#!">First Sidebar Link</a></li>
+			  <li><a href="#!">Second Sidebar Link</a></li>
+			  <li class="no-padding">
+				<ul class="collapsible collapsible-accordion">
+				  <li>
+					<a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+					<div class="collapsible-body">
+					  <ul>
+						<li><a href="#!">First</a></li>
+						<li><a href="#!">Second</a></li>
+						<li><a href="#!">Third</a></li>
+						<li><a href="#!">Fourth</a></li>
+					  </ul>
+					</div>
+				  </li>
+				</ul>
+			  </li>
+			</ul>
 		</nav>
 
 	</body>
+	
+	<!-- Scripts -->
+	<!-- Added to the bottom of the site to make the site load faster -->
+	<!-- Add jQuery to website -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
 </html>
