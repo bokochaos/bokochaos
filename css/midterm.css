@@ -1,5 +1,11 @@
-.content-container {
-  width: 100%;
+main {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+header{
+	height: 30px;
 }
 
 
@@ -15,17 +21,20 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
   
 /* Give the body a width */
 body {
-  width: 100%;
+  /*width: 100%;*/
+  /*margin-left: 20%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto;*/
 }
+
 
 /* Make the nav take up the whole body width, and give it some top and bottom margin space */
 nav {
-  width: 20%;
-  min-width: 200px;
+  position: fixed;
+  width: 10%;
+  min-width: 40px;
   max-width: 300px;
-  margin: 20px 0;
+  /*margin: 20px 0;*/
   height: 100%
 }
 
@@ -51,3 +60,21 @@ nav ul {
   padding: 0;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	main{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+/* Styles */
+	main{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+}
