@@ -8,6 +8,11 @@ $('.button-collapse').sideNav({
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
+  
+$("#greeting").click(function(){
+		$("#greeting").html("世界、こんいちわ");
+	}
+);
 // Initialize collapsible (uncomment the line below if you use the dropdown variation)
 //$('.collapsible').collapsible();
 
