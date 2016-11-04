@@ -24,7 +24,7 @@
 		
 		<nav>
 			<!-- adapted from: http://materializecss.com/side-nav.html -->
-			<ul id="slide-out" class="side-nav">
+			<!--<ul id="slide-out" class="side-nav">
 				<li><div class="userView">
 					<div class="background">
 						<img src="images/office.jpg">
@@ -38,7 +38,17 @@
 				<li><div class="divider"></div></li>
 				<li><a class="subheader">Subheader</a></li>
 				<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+			</ul>-->
+			<!-- adapted from: https://www.sitepoint.com/pure-css-off-screen-navigation-menu/ -->
+			<ul class="navigation">
+				<li class="nav-item"><a href="#">Home</a></li>
+				<li class="nav-item"><a href="#">Portfolio</a></li>
+				<li class="nav-item"><a href="#">About</a></li>
+				<li class="nav-item"><a href="#">Blog</a></li>
+				<li class="nav-item"><a href="#">Contact</a></li>
 			</ul>
+			<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+			<label for="nav-trigger"></label>
 			<a href="#" data-activates="slide-out" class="button-collapse">
 				<i class="fa fa-bars fa-4x" aria-hidden="true">Menu</i>
 			</a>
@@ -71,4 +81,12 @@
 	<!-- Add jQuery to website -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="/js/scripts.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#greeting").click(function(){
+					$("#greeting").text("世界、こんいちわ！");
+				}
+			);
+		});
+	</script>
 </html>
