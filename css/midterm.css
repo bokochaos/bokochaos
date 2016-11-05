@@ -89,6 +89,10 @@ i.menu { padding-left: 10px; }
 	clear: left;
 }
 
+#daltonCurrentTime{
+	text-align: right;
+}
+
 
 @media (max-width : 767px) {
 
