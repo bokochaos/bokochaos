@@ -6,45 +6,32 @@
 }
 
 main {
+  margin-top: 10px;
   /*width: 80%;
   margin: auto;
   margin-top: 30px;*/
 }
 
 header{
-  height: 30px;
+  height: 15%;
+  margin-bottom: 10px;
+  min-height: 50px;
+  max-height: 100px;
   
 }
 
 
 /* Adapted from https://www.sitepoint.com/building-an-interactive-navigation-bar/ */
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  background: transparent;
-}
-  
-/* Give the body a width */
-body {
-  /*width: 100%;*/
-  /*margin-left: 20%;
-  max-width: 960px;
-  margin: 0 auto;*/
-}
-
-
 /* Make the nav take up the whole body width, and give it some top and bottom margin space */
 nav {
-  float: left;
   position: fixed;
   width: 10%;
   min-width: 40px;
   max-width: 300px;
-  /*margin: 20px 0;*/
-  height: 100%;
+  top: 30%;
+  margin: auto 0 auto 0;
+  /*margin: 20px 0;
+  height: 100%;*/
 }
 
 /* Make the list of links take up the whole width of the nav */
@@ -78,8 +65,14 @@ nav ul {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 	main{
-		width: 100%;
-		margin-top: 30px;
+		margin-top: 0px;
+	}
+	
+	header{
+	  height: 20%;
+	  margin-bottom: 10px;
+	  min-height: 50px;
+	  max-height: 100px;	  
 	}
 
 }
@@ -90,6 +83,12 @@ nav ul {
 	main{
 		width: 100%;
 		margin-top: 30px;
+	}
+	
+	header{
+	  height: 15%;
+	  min-height: 50px;
+	  max-height: 100px;	  
 	}
 
 }
