@@ -1,8 +1,5 @@
-.container{
-  width: 80%;
-  margin: auto;
-  margin-top: 30px;
-	
+.contents{
+	margin-left: 20%;
 }
 
 main {
@@ -13,11 +10,11 @@ main {
 }
 
 header{
-  height: 15%;
+  height: 10%;
   margin-bottom: 10px;
   min-height: 50px;
   max-height: 100px;
-  
+  vertical-align: sub;
 }
 
 
@@ -25,7 +22,7 @@ header{
 /* Make the nav take up the whole body width, and give it some top and bottom margin space */
 nav {
   position: fixed;
-  width: 10%;
+  width: 20%;
   min-width: 40px;
   max-width: 300px;
   top: 30%;
@@ -57,14 +54,43 @@ nav ul {
 }
 
 .index-img{
-	image-orientation: 90deg;
 	width: 25%;
-	height: 25%;
+	float: left;
+	margin: 20px;
 }
+
+.index-details{
+	/*position: relative;*/
+	float: left;
+	width: auto;
+}
+
+.fa-ul li{
+	font-size: 1.2em;
+}
+
+li i{
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+nav ul li a{ font-size: 1.2em; }
+
+.menu{ 
+	font-size: 1.5em;
+	padding-left: 20px;
+}
+
+.content{
+	clear: left;
+}
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-	main{
+	/*main{
 		margin-top: 0px;
 	}
 	
@@ -73,14 +99,33 @@ nav ul {
 	  margin-bottom: 10px;
 	  min-height: 50px;
 	  max-height: 100px;	  
+	}*/
+	
+	.fa-ul li{
+		font-size: .8em;
 	}
+
+	li i{
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		margin-right: 10px;
+	}
+
+	nav ul li a{ font-size: .8em; }
+
+	.menu{ 
+		font-size: 1em;
+		padding-left: 10px;
+	}
+
 
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
 /* Styles */
-	main{
+	/*main{
 		width: 100%;
 		margin-top: 30px;
 	}
@@ -89,6 +134,25 @@ nav ul {
 	  height: 15%;
 	  min-height: 50px;
 	  max-height: 100px;	  
+	}*/
+	
+	.fa-ul li{
+		font-size: 1em;
 	}
+
+	li i{
+		width: 35px;
+		height: 35px;
+		text-align: center;
+		margin-right: 10px;
+	}
+
+	nav ul li a{ font-size: 1em; }
+
+	.menu{ 
+		font-size: 1.2em;
+		padding-left: 20px;
+	}
+
 
 }
