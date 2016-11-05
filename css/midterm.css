@@ -38,7 +38,7 @@ body {
 
 /* Make the nav take up the whole body width, and give it some top and bottom margin space */
 nav {
-  float: left
+  float: left;
   position: fixed;
   width: 10%;
   min-width: 40px;
