@@ -49,6 +49,8 @@ $(document).ready(function(){
 		}
 	);
 	
+	
+	//Below 3 functions are to change the color schemes of the site. Can help with viewing for certain individuals
 	$("#breaker").click(function(){
 			$("body").prop("class", null);
 			$("body").addClass("breaker");
