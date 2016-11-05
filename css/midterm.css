@@ -1,5 +1,6 @@
 .contents{
 	margin-left: 20%;
+	margin-right: 10%;
 }
 
 main {
@@ -83,6 +84,8 @@ nav ul li a{ font-size: 1.2em; }
 	padding-left: 20px;
 }
 
+i.menu { padding-left: 10px; }
+
 .content{
 	clear: left;
 }
@@ -100,6 +103,17 @@ nav ul li a{ font-size: 1.2em; }
 	  min-height: 50px;
 	  max-height: 100px;	  
 	}*/
+	
+	.index-img{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	
+	.index-details{
+	/*position: relative;*/
+		float: left;
+		width: auto;
+	}
 	
 	.fa-ul li{
 		font-size: .8em;
@@ -136,6 +150,12 @@ nav ul li a{ font-size: 1.2em; }
 	  max-height: 100px;	  
 	}*/
 	
+	.index-img{
+		width: 35%;
+		float: left;
+		margin: 20px;
+	}
+	
 	.fa-ul li{
 		font-size: 1em;
 	}
@@ -152,6 +172,12 @@ nav ul li a{ font-size: 1.2em; }
 	.menu{ 
 		font-size: 1.2em;
 		padding-left: 20px;
+	}
+	
+	.index-details{
+		/*position: relative;*/
+		float: left;
+		width: auto;
 	}
 
 
