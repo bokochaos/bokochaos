@@ -35,6 +35,20 @@ $(document).ready(function(){
 		}
 	);
 	
+	$("#about").click(function(){
+			$("#about").text("私について。");
+			//Just to test foreign characters.
+			//Might do a full site translation into Japanese if I really try later
+		}
+	);
+	
+	$("#portfolio").click(function(){
+			$("#portfolio").text("私のポートフォリオ。");
+			//Just to test foreign characters.
+			//Might do a full site translation into Japanese if I really try later
+		}
+	);
+	
 	//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
 	//Mozilla Try Catch for Javascript
 	//Add timer for reference of my estimated time zone

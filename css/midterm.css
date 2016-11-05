@@ -89,6 +89,12 @@ i.menu { padding-left: 10px; }
 	clear: left;
 }
 
+.portfolio-img{
+	width: 40%;
+	float: left;
+	margin: 20px;
+}
+
 #daltonCurrentTime{
 	text-align: right;
 }
@@ -139,6 +145,12 @@ i.menu { padding-left: 10px; }
 	.menu{ 
 		font-size: 1em;
 		padding-left: 10px;
+	}
+	
+	.portfolio-img{
+		width: 30%;
+		float: left;
+		margin: 20px;
 	}
 
 
