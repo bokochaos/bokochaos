@@ -15,7 +15,6 @@ header{
   margin-bottom: 10px;
   min-height: 50px;
   max-height: 100px;
-  vertical-align: sub;
 }
 
 
@@ -55,7 +54,7 @@ nav ul {
 }
 
 .index-img{
-	width: 25%;
+	width: 30%;
 	float: left;
 	margin: 20px;
 }
@@ -91,21 +90,26 @@ i.menu { padding-left: 10px; }
 }
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (max-width : 767px) {
 
 	/*main{
 		margin-top: 0px;
-	}
+	}*/
 	
 	header{
 	  height: 20%;
 	  margin-bottom: 10px;
-	  min-height: 50px;
-	  max-height: 100px;	  
-	}*/
+	  min-height: 30px;
+	  max-height: 50px;
+	}
+	
+	#greeting{
+		padding-top: 5px;
+		vertical-align: sub;
+	}
 	
 	.index-img{
-		width: 50%;
+		width: 75%;
 		margin-bottom: 20px;
 	}
 	
@@ -136,22 +140,27 @@ i.menu { padding-left: 10px; }
 
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media (min-width : 768px) and (max-width : 991px) {
 
 /* Styles */
 	/*main{
 		width: 100%;
 		margin-top: 30px;
-	}
+	}*/
 	
 	header{
 	  height: 15%;
 	  min-height: 50px;
-	  max-height: 100px;	  
-	}*/
+	  max-height: 70px;	  
+	}
+	
+	#greeting{
+		padding-top: 10px;
+		vertical-align: sub;
+	}
 	
 	.index-img{
-		width: 35%;
+		width: 50%;
 		float: left;
 		margin: 20px;
 	}
@@ -181,4 +190,46 @@ i.menu { padding-left: 10px; }
 	}
 
 
+}
+
+@media and (min-width : 2000px) {
+	.contents{
+		width: 60%;
+		margin: auto;
+	}
+	
+	header{
+	  height: 15%;
+	  margin-bottom: 10px;
+	}
+	
+	.fa-ul li{
+		font-size: 1.6em;
+	}
+
+	li i{
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		margin-right: 10px;
+	}
+
+	nav ul li a{ font-size: 1.6em; }
+
+	.menu{ 
+		font-size: 2em;
+		padding-left: 25px;
+	}
+
+	i.menu { padding-left: 15px; }
+
+	.content{
+		clear: left;
+	}
+	
+	.index-img{
+		width: 40%;
+		float: left;
+		margin: 20px;
+	}
 }
