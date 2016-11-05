@@ -25,7 +25,7 @@ nav {
   width: 20%;
   min-width: 40px;
   max-width: 300px;
-  top: 30%;
+  top: 25%;
   margin: auto 0 auto 0;
   /*margin: 20px 0;
   height: 100%;*/
@@ -99,6 +99,36 @@ i.menu { padding-left: 10px; }
 	text-align: right;
 }
 
+.california{
+	background-color: #3076e6;
+}
+
+.california nav{
+	background-color: yellow;
+}
+
+.california a{
+	color: blue;
+}
+
+.breaker{
+	background-color: black;
+	color: #b1ed9f;
+}
+.breaker a { color: forestgreen; }	
+
+.squid{
+	background-color: darkblue;
+	color: green;
+}
+
+.squid a{ color: orange; }
+
+#colorings{
+	margin-top: 20px;
+}
+
+
 
 @media (max-width : 767px) {
 
@@ -111,6 +141,17 @@ i.menu { padding-left: 10px; }
 	  margin-bottom: 10px;
 	  min-height: 30px;
 	  max-height: 50px;
+	}
+	
+	nav {
+	  position: fixed;
+	  width: 20%;
+	  min-width: 40px;
+	  max-width: 300px;
+	  top: 5%;
+	  margin: auto 0 auto 0;
+	  /*margin: 20px 0;
+	  height: 100%;*/
 	}
 	
 	#greeting{
@@ -148,7 +189,7 @@ i.menu { padding-left: 10px; }
 	}
 	
 	.portfolio-img{
-		width: 30%;
+		width: 70%;
 		float: left;
 		margin: 20px;
 	}
@@ -168,6 +209,17 @@ i.menu { padding-left: 10px; }
 	  height: 15%;
 	  min-height: 50px;
 	  max-height: 70px;	  
+	}
+	
+	nav {
+	  position: fixed;
+	  width: 20%;
+	  min-width: 40px;
+	  max-width: 300px;
+	  top: 25%;
+	  margin: auto 0 auto 0;
+	  /*margin: 20px 0;
+	  height: 100%;*/
 	}
 	
 	#greeting{
@@ -204,6 +256,14 @@ i.menu { padding-left: 10px; }
 		float: left;
 		width: auto;
 	}
+	
+	.portfolio-img{
+		width: 60%;
+		float: left;
+		margin: 20px;
+	}
+	
+	
 
 
 }
@@ -245,6 +305,12 @@ i.menu { padding-left: 10px; }
 	
 	.index-img{
 		width: 40%;
+		float: left;
+		margin: 20px;
+	}
+	
+	.portfolio-img{
+		width: 50%;
 		float: left;
 		margin: 20px;
 	}

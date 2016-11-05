@@ -49,11 +49,36 @@ $(document).ready(function(){
 		}
 	);
 	
+	$("#breaker").click(function(){
+			$("body").prop("class", null);
+			$("body").addClass("breaker");
+			//Just to test foreign characters.
+			//Might do a full site translation into Japanese if I really try later
+		}
+	);
+	
+	$("#california").click(function(){
+			$("body").prop("class", null);
+			$("body").addClass("california");
+			//Just to test foreign characters.
+			//Might do a full site translation into Japanese if I really try later
+		}
+	);
+	
+	$("#squid").click(function(){
+			$("body").prop("class", null);
+			$("body").addClass("squid");
+			//Just to test foreign characters.
+			//Might do a full site translation into Japanese if I really try later
+		}
+	);
+	
 	//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
 	//Mozilla Try Catch for Javascript
 	//Add timer for reference of my estimated time zone
 	try{
 		setInterval('updateClock()', 1000);
+		$(body).addClass("breaker");
 	}
 	catch (e) {
 		// statements to handle any exceptions
