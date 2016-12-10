@@ -1,0 +1,348 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		<meta name="description" content="IN4MATX 133 Project">
+		<meta name="author" content="Dalton Kraatz">
+		
+		<!-- Add self-created css here -->
+		<link rel="stylesheet" href="css/midterm.css">
+		
+		<!-- Start inserting font-awesome here -->
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		
+		<!--[if lt IE 9]>
+			<script src="dist/html5shiv.js"></script>
+		<![endif]-->
+		
+		<title>Dalton Kraatz - Final Findings</title>
+	</head>
+
+
+	<body class="breaker">
+		<div class="contents">
+			<header>
+				<h1 id="greeting">Hello World!</h1>
+			</header>
+			
+			
+			<main>
+				<!-- Lightbox base that I took from W3Schools, and modified for the site content -->
+				<!-- User Research -->
+				<div class="row">
+				  <div class="column">
+					<img src="Interviews.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow img_left">
+					<div class="right_shift">
+						<h2>User Interviews</h2>
+						<p>
+							&nbsp;In my interviews, I asked friends who I would trust with a lot of personal content.
+							These friends are people I know have studied themselves, and would give me good insight on what material would be good in a personal site.
+							From the onset, they reaffirmed some of the details I expected: projects, interests, and involvement are key to a personal site.
+							At the same time, I did get insight on what they do plan for their own careers, and what they measure as "success", which made me think about how
+							to start defining success in my own career.
+						</p>
+						<a href="https://docs.google.com/spreadsheets/d/1GUV7SzWVT7ua3xU4eVlPgMmwk__h2Yp4JBZD4z-6wQQ/edit?usp=sharing">Link to the User Interviews.</a>
+					</div>
+				  </div>
+				  <div class="column">
+					<img src="Competitive_Analysis.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow img_left">
+					<div class="right_shift">
+						<h2>Competitor Analysis</h2>
+						<p>
+							&nbsp;Competitor analysis is where one looks at the product they are creating, and objectively compares it to another product occupying the same space.
+							In this case, I compared myself to classmates I knew had sites that would have a decent amount of content, or students with better resumes than my own.
+							From those sites, I looked at the content they focused on, and what was useful from that, and what was not. In some aspects, there was a good amount of content available.
+							In most cases the sites seemed lacking, and were not much more than a wrapper for the work someone did or a link to a resume.
+							They were still spaces full of potential at the end of the analysis, but did not meet it. In my case, I had the content, but not descriptions for it all.
+						</p>
+						<a href="https://docs.google.com/spreadsheets/d/1ZhLwmjBaPQ3GDLSzSXDZ1KcW906TdqTAm9LJmZ3mEF4/edit?usp=sharing">Link to the Competitor Analysis.</a>
+					</div>
+				  </div>
+				  <div class="column">
+					<img src="Feature_Value.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow img_left">
+					<div class="right_shift">
+						<h2>Feature Value Matrix</h2>
+						<p>
+							&nbsp;Feature Value Matricies are used to prioritize what is on the development frontier for the project, and what would each item be worth in terms
+							of development time, and user/business value. In my case, I was less focused on updating content that existed, and actually added more functions
+							for the user to utilize. I wanted to make a number of UI layout changes, mainly with color choices, as well as a better navigation side-bar to have
+							overall navigation on desktop and mobile to the side, but accessible. I did think about adding a link to my resume as well, as I did notice others doing this.
+							The one feature that I would want most is having a direct email system available. Though it might invite spam, it still helps the end-user avoid a couple extra clicks to make.
+						</p>
+						<a href="https://docs.google.com/spreadsheets/d/19M3ZGPQaLbyjs1A0DfNAapo2BtHnmfd5iSjSw4ESBNk/edit?usp=sharing">Link to the Feature Value Matrix.</a>
+					</div>
+				  </div>
+				  <div class="column">
+					<img src="Feature_Priority.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow img_left">
+					<div class="right_shift">
+						<h2>Feature Prioritization</h2>
+						<p>
+							&nbsp;Feature Prioritization mainly takes some of the Feature Value Matrix items and placing them on a visual graph that helps the developer understand what is important,
+							and what is nice to have, but unnecessary. It really takes the numerical values in the prior chart and gives them a graphical representation, which helps some people.
+							Though these items can be placed in a 1-D line or 2-D graph, their core purpose is to help developers spend less time making unnecessary changes, and more useful functions or design changes.
+						</p>
+						<a href="https://docs.google.com/presentation/d/1YqyinCriRoLB6FrE322mB-DYc_2dqTQ9FYxP9avVxBc/edit?usp=sharing">Link to the Feature Prioritization.</a>
+					</div>
+				  </div>
+				</div>
+				
+				<!-- User Testing -->
+				<div class="row">
+				  <div class="column">
+					<img src="Stories.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow img_left">
+					<div class="right_shift">
+						<h2>User Stories</h2>
+						<p>
+							&nbsp;A lot of my user stories were actually sourced from friends I have across different industries, and from people I have talked to who work full time.
+							While a lot of people I got responses from were students, there were a number of them who had worked at major companies, and took their experience
+							at larger companies and would have more insight on what would be eye-catching for those companies. The stories, while short, are reflections I have made from their insight,
+							and serve as a reminder for what I should have at minimum on a personal site.
+						</p>
+						<a href="https://docs.google.com/spreadsheets/d/1nu22mP7GojgmJN0bmF88P-Yu-5Puq5NwunIfjtRDQks/edit?usp=sharing">Link to the User Stories.</a>
+					</div>
+				  </div>
+				  <div class="column">
+					<img src="Walkthrough.JPG" onclick="openModal();currentSlide(6)" class="hover-shadow img_left">
+					<div class="right_shift">
+						<h2>Cognitive Walkthrough</h2>
+						<p>
+							&nbsp;Cognitive Walkthroughs are tours of a product done where the examiner and the tester are side by side, and the examiner asks the tester questions on how to navigate the product
+							and what they are thinking about as they navigate for the answer in the product. One issue in trying to make these tests are asking insightful question that doesn't tell the tester
+							where the answer is. At the same time, a second issue is getting testers that are competent in the software and can navigate around and still talk about what they are thinking about.
+							The final issue is having examiners that are patient enough to not give out the answer to the problem, but can encourage enough to reassure the tester they are approaching the answer.
+							<br/>&nbsp;My issue with getting the walkthroughs done were getting the people to test. It did take some time, but I was able to get some people I trusted to give me solid feedback on each
+							question, would be able to navigate the personal site, and give honest feedback despite knowing me in person. In the end, I did get some interesting results that shaped my opinion on
+							what is actually a priority in my next review of my user research.
+						</p>
+						<a href="https://docs.google.com/spreadsheets/d/1F15MmAK4sKFv0jr3u6MlvH22zRd8FMZFiY-fdH_VUPw/edit?usp=sharing">Link to the Cognitive Walkthroughs.</a>
+					</div>
+				  </div>
+				  <div class="column">
+					<img src="3_question.JPG" onclick="openModal();currentSlide(7)" class="hover-shadow img_left">
+					<div class="right_shift">
+						<h2>User Test</h2>
+						<p>
+							&nbsp;I did 2 tests that were short for the tester, but insightful enough on the content and design available at the time.
+							The first test was a 5-second analysis test, which helped me figure what pieces were too distracting, or eye-catching. This was done
+							in reflection from the info I have received from recruiters where they might only look at a resume for 5 seconds before moving onto the next.
+							I also ran a 3-question test, as it also reflects the kind of time one has at a career fair, and the amount of impact you might make. While I
+							focused more on what people thought was nice or not, it was to help decide what was lacking in my digital design. The end results for both were simple:
+							my photo stood out enough to the user, but the site needed more descriptions of my projects or personal information to make it more understandable what
+							a project was about instead of having to click on the project, or directly email me about it.
+							<br />&nbsp;The biggest challenged faced was getting people to answer my questions towards the end. I know a lot of people do not have much time to answer
+							questions from a questionaire, I tried to use early timing statistics to encourage other friends to spend the minute or two to get it done.
+						</p>
+						<a href="https://usabilityhub.com/tests/d7165db044ce/results">Link to the 5-second User Test.</a>
+						<a href="https://usabilityhub.com/tests/b48bd6acca7b/results">Link to the 3-Question User Test.</a>
+					</div>
+				  </div>
+				</div>
+				
+				<!-- Summary of Findings -->
+				<div class="row">
+				  <div class="column">
+					<h2>Summary of Findings</h2>
+					<p>
+						&nbsp;The initial finding was that projects matter a lot to people, and that having descriptions that explain what a project is helps a lot.
+						A lot of my friends told me a lot about their interests in what I do on my own, or with others, outside of school, but incorporates what is learned 
+						in the classroom in a broader scale. At the same time, I also did hear a good amount of response that I should have included my student organization
+						activities in my portfolio as well. Some of the people I knew well mentioned that I did a lot of work in student organizations, work that I thought was
+						not as important as my work experience at the time. Hearing that my initial instinct were different than what the community thought was important,
+						I did start to think about making major content changes from the community response alone.
+					</p>
+					<p>
+						&nbsp;Another issue that did arise was color choices for the UI. I chose the colors somewhat last-minute, and wasn't really thinking about the end
+						result. While I only have a couple different screens to test the color scheme, my taste in color is admittedly bad. The color schemes were not well-vetted
+						and were not perfect for all screens. I should have also looked at other personal sites where color is a key feature of the site. Another effective alternative
+						would have been to use external websites to compare color schemes and figure what would have been best to express my personality in the best light in the end.
+					</p>
+					<p>
+						&nbsp;From the interviews and testings, the focus on photos was well-met, but upon personal reflection, felt overdone. I ended up not putting context to the 
+						images, and that alone made me feel that they weren't well done. I also thought about the context of each image, and needed to put more professional images on
+						the page if I didn't want to have too much context added to them. I also did have a response from one friend who her entire response to my sites about how I 
+						do not smile enough in the image. While this might seem a bit amusing, or a waste of time in user testing, it did bring awareness to my image choices, and has me
+						question my future image choices for websites where I will be on the web page, or how large my smile is when I take another photo in the future.
+					</p>
+				  </div>
+				</div>
+				
+				<!-- Incorporation of Findings -->
+				<div class="row">
+				  <div class="column">
+					<h2>Incorporation of Findings</h2>
+					<p>
+						&nbsp;One of the first things I am planning on doing is changing the color options for the site. That was one thing I did think about right after I submitted
+						my site for grading, and knew it needed to be changed. Though I am not sure what colors best reflect my personality, I did not want to end up with a black-white
+						color scheme that is pretty common with some sites, but at the same time, I was not willing to spend the initial time looking at all the variations of grey.
+						This experience did give me a much better appreciation for people who spend so much time picking colors for sites on top of the standard design of the UI. The end
+						result I do want to make is making the text readable, but at the same time not creating such a contrast it makes it too hard to read because of the contrast.
+					</p>
+					<p>
+						&nbsp;I would also look into other photos of myself that would better tell my story than I have so far. While I feel that the pictures I currently have tell a story,
+						the lack of context does not help those who have never really met me before. I can say the same for my projects (and the organizations I have been a part of).
+						My projects do need a bit of context, especially because I am getting involved with a lot of groups while I am at UCI. It would be a better time for the user,
+						and it would be better for my own context when I have to update my resume, and need to pull some text fast. It helps everyone to have more context in everything,
+						but I will have to do more testing to figure what would be the most effective amount for each item.
+					</p>
+					<p>
+						&nbsp;The last thing I will change will be navigation. There have been many people who have mentioned to me in person that the navigation looks odd on the site,
+						and having the hambuger icon makes people think they need to click it. Most mentioned they expected it at the top of the site, but in a mobile-first style of
+						design, I think it would have been best to actually have it be a slide-out menu that users can toggle on demand. I would need to take more time to get this
+						right for screen-reader formats as well, but its still important for me to make sure that I get the end-result corrent, so it does not look awkward or malfunction
+						while available for public use.
+					</p>
+				  </div>
+				</div>
+
+				<div id="myModal" class="modal">
+				  <span class="close cursor" onclick="closeModal()">&times;</span>
+				  <div class="modal-content">
+
+					<div class="mySlides">
+					  <div class="numbertext">1 / 7</div>
+						<img src="Interviews.JPG" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+					  <div class="numbertext">2 / 7</div>
+						<img src="Competitive_Analysis.JPG" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+					  <div class="numbertext">3 / 7</div>
+						<img src="Feature_Value.JPG" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+					  <div class="numbertext">4 / 7</div>
+						<img src="Feature_Priority.JPG" style="width:100%">
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">5 / 7</div>
+						<img src="Stories.JPG" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+					  <div class="numbertext">6 / 7</div>
+						<img src="Walkthrough.JPG" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+					  <div class="numbertext">7 / 7</div>
+						<img src="3_question.JPG" style="width:100%">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<div class="caption-container">
+					  <p id="caption"></p>
+					</div>
+
+					<div class="column">
+					  <img class="demo" src="Interviews.JPG" onclick="currentSlide(1)" alt="Nature">
+					</div>
+
+					<div class="column">
+					  <img class="demo" src="Competitive_Analysis.JPG" onclick="currentSlide(2)" alt="Trolltunga">
+					</div>
+
+					<div class="column">
+					  <img class="demo" src="Feature_Value.JPG" onclick="currentSlide(3)" alt="Mountains">
+					</div>
+
+					<div class="column">
+					  <img class="demo" src="Feature_Priority.JPG" onclick="currentSlide(4)" alt="Lights">
+					</div>
+					
+					<div class="column">
+					  <img class="demo" src="Stories.JPG" onclick="currentSlide(5)" alt="Lights">
+					</div>
+					
+					<div class="column">
+					  <img class="demo" src="Walkthrough.JPG" onclick="currentSlide(6)" alt="Lights">
+					</div>
+					
+					<div class="column">
+					  <img class="demo" src="3_question.JPG" onclick="currentSlide(7)" alt="Lights">
+					</div>
+				  </div>
+				</div>
+				
+			</main>
+		</div>
+
+
+		
+		<nav aria-hidden="true">
+			<i class="fa fa-bars fa-3x menu" aria-hidden="true"></i><span class="menu">Menu</span>
+			<!-- Adapted from https://www.sitepoint.com/building-an-interactive-navigation-bar/ -->
+			<ul class="navigation">
+				<li class="nav-item"><a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true"></i>Home</a></li>
+				<li class="nav-item"><a href="portfolio.html"><i class="fa fa-code fa-2x" aria-hidden="true"></i>Portfolio</a></li>
+				<li class="nav-item"><a href="about.html"><i class="fa fa-picture-o fa-2x" aria-hidden="true"></i>About</a></li>
+				<li class="nav-item"><a href="media"><i class="fa fa-feed fa-2x" aria-hidden="true"></i>Blog</a></li>
+				<li class="nav-item"><a href="#contact" data-toggle="modal" data-target="#contact"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>Contact</a></li>
+			</ul>
+			<i class="fa fa-paint-brush fa-3x menu" id="colorings" aria-hidden="true"></i><span class="menu">Colorings</span>
+			<ul>
+				<li class="nav-item"><a href="#" id="breaker"><i class="fa fa-code fa-2x" aria-hidden="true"></i>Breaker</a></li>
+				<li class="nav-item"><a href="#" id="california"><i class="fa fa-camera fa-2x" aria-hidden="true"></i>California</a></li>
+				<li class="nav-item"><a href="#" id="squid"><i class="fa fa-anchor fa-2x" aria-hidden="true"></i>Squid</a></li>
+			</ul>
+			
+		</nav>
+	   
+
+	</body>
+	
+	<!-- Scripts -->
+	<!-- Added to the bottom of the site to make the site load faster -->
+	<!-- Add jQuery to website -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+
+
+	
+	<script> <!-- Pulled from W3Schools as a Lightbox base -->
+		function openModal() {
+		  document.getElementById('myModal').style.display = "block";
+		}
+
+		function closeModal() {
+		  document.getElementById('myModal').style.display = "none";
+		}
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("demo");
+		  var captionText = document.getElementById("caption");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		  captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+	</script>
+</html>
