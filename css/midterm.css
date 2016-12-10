@@ -338,6 +338,11 @@ i.menu { padding-left: 10px; }
 	height: 150px;
 }
 
+.img_tiny{
+	width: 150px;
+	height: 150px;
+}
+
 .column {
   /*
   float: left;
